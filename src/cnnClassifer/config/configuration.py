@@ -1,3 +1,4 @@
+import os
 from cnnClassifer.constants import *
 from src.cnnClassifer.utils.common import read_yaml,create_directories
 from cnnClassifer.entity.config_entity import (DataIngestionConfig,PrepareBaseModelConfig,
